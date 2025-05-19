@@ -1,0 +1,69 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Arquivo Atual",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_panda",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_panda.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_error",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_error.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_error_divisao.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_error_divisao.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_texto.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_texto.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_boleano.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_boleano.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_inteiros.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_inteiros.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: exemplo_decimais.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/exemplo_decimais.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
