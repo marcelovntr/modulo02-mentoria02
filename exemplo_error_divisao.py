@@ -43,12 +43,16 @@ def main():
     
     except ZeroDivisionError:
         warnings.warn("Erro: Divisão por zero!")
+        # warnings.warn_explicit("Erro: Divisão por zero!", category=ZeroDivisionError)
+        #abre caixa de texto na tela
+        # warnings.catch_warnings
     
+    #genérico que aponta o que há de exceção
     except Exception as e:
         warnings.warn(f"Erro inesperado: {e}")
 
 # Executando o programa
 if __name__ == "__main__":
     # Configurando para mostrar todos os warnings
-    warnings.filterwarnings('always')
+    warnings.filterwarnings('always')#'default', 'ignore' ...
     main() 

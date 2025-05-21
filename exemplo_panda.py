@@ -11,7 +11,7 @@ Como usar:
 2. Observe os diferentes outputs no console
 """
 
-import pandas as pd
+import pandas as pd #pd é apenas um alias
 
 def main():
     # Criando um DataFrame simples com notas de alunos

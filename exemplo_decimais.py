@@ -6,11 +6,15 @@ Este código demonstra operações básicas com números decimais:
 - Faz operações básicas (soma, subtração, multiplicação, divisão)
 - Mostra os resultados
 """
+import locale
 
 def main():
     try:
+        locale.setlocale( locale.LC_ALL, 'pt_BR.UTF-8' )
         # Pedindo dois números decimais
         num1 = float(input("Digite o primeiro número decimal: "))
+        valor_formatado = locale.currency(num1, grouping=True, symbol=True)
+        print(f"Valor formatado: {valor_formatado}")
         num2 = float(input("Digite o segundo número decimal: "))
         
         # Operações básicas

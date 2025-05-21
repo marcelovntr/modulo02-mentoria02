@@ -10,6 +10,7 @@
 # exemplo: requests==2.31.0 
 
 # Dependências principais
-pandas==2.2.0
+#tava antes, versão do prof: pandas==2.2.3
+pandas==2.2.3
 numpy==1.26.3
 requests==2.31.0 
